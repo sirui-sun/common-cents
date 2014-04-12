@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>iWorkout</title>
+    <script>document.createElement('nav');document.createElement('section');</script>
+    <%= stylesheet_link_tag    "landing", media: "all" %>
+    <%= javascript_include_tag "landing", media: "all" %>
+
+    <%= csrf_meta_tags %> 
+  </head>
+    <div id="wrap">
+  
+    <nav>
+      <a href="../" id="logo">Logo</a>
+      <ul id="nav">
+        <li><a href="#about">Home</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div id="shadow"></div>
+    </nav><!-- end nav -->
+    
+    <div id="content">
+      <h1>Thanks for visiting Common Cents!</h1>
+
+      <div id="about" class="slide">
+      
+        <!-- about start -->
+        <div id="subtitle"><h2>The fun way to learn about finance</h2></div>
+        <div id="info-box">
+          <p>
+            Introducing Common Cents - empowering high school students to create a financially sustainable future.
+          </p>
+          <hr>
+          <div class="scroll" style="height:165px">
+            At Common Cents, our goal is to deliver a compelling interactive experience which will teach teach high schoolers the financial skills that they'll need to thrive in the real world. Our principles center around:
+            </br>
+            <ul>
+              <li>Making a game that students will <i>want</i> to play</li>
+              <li>Building sustainable habits, as well as conveying information</li>
+            </ul>
+          </div>
+        </div>
+        <!-- about end -->
+        
+      </div><!-- end div #about -->
+      
+      
+      <div id="contact" class="slide">
+      
+      
+        <!-- contact start -->
+        <h2>contact us</h2>
+          Interested? Shoot us an <a href="mailto:sirui.sun1@gmail.com" target="_top">e-mail</a>.
+        <div id="beforeSubmit">
+        </div>
+
+        <div id="afterSubmit">
+            
+        </div>
+        <!-- contact end -->
+        
+      </div><!-- end div #contact -->
+      
+      
+    </div><!-- end div #content -->
+  </div><!-- end div #wrap -->
+  
+</body>
+
+</html>
